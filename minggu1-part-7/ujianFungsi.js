@@ -37,9 +37,12 @@ console.log(balikKata("Super"))
 
 function konversiMenit(menit) {
     const jam = Math.floor(menit / 60)
-    const detik = menit % 60
+    let minute = menit % 60
+    if(minute < 10){
+        minute +=  "0".toString()
+    }
 
-    return { jam, detik }
+    return `${jam}:${minute}`
 }
 
 console.log(konversiMenit(63))
