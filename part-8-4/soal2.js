@@ -7,7 +7,7 @@ function palindromeAngka (angka) {
     for (i = stringAngka.length -1; i >= 0; i--){
         reverseAngka += stringAngka[i]
     }
-
+    console.log(reverseAngka)
     if(isPalindrome){
         if(reverseAngka == stringAngka){
             return angka

@@ -7,6 +7,7 @@ function pasanganTerbesar(num) {
         let bigNum = parseInt(stringNum[i] + stringNum[i + 1])
         if(bigNum > banding){
             banding = bigNum
+            
         }
     }
     return banding
