@@ -13,6 +13,7 @@ function targetTerdekat (arr) {
             break;
         }
     }
+
     return Math.abs(positionX-positionO)
 }
 
