@@ -21,7 +21,7 @@ function changeMe(arr) {
                 obj.age = "Invalid Birth Year"
             }
         }
-        console.log({...obj})
+        console.log(obj)
     }
 
 }

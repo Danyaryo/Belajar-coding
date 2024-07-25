@@ -5,6 +5,7 @@ function cariMedian(arr) {
 
     let totalDataGanjil = Math.floor(sequenceNumber.length / 2)
     let totalDataGenap = Math.floor(sequenceNumber.length / 2 - 1)
+    
    if(sequenceNumber.length % 2 == 1) {
     return sequenceNumber[totalDataGanjil]
    } else {
